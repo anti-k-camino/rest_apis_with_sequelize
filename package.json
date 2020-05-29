@@ -1,0 +1,11 @@
+{
+  "name": "sequelize_crud",
+  "version": "1.0.0",
+  "description": "REST APIs with Sequelize ORM. ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "antiq",
+  "license": "MIT"
+}
