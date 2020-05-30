@@ -10,7 +10,8 @@ const sequelize = new Sequelize(
     max: dbConfig.pool.max,
     acquire: dbConfig.pool.acquire,
     idle: dbConfig.pool.idle
-  }
+  },
+  logging: true
 });
 
 const db = {};
