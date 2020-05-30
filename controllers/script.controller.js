@@ -69,7 +69,7 @@ exports.delete = (req, res) => {
       return res.status(500).send({ message: `Failed to delete id:${id}.` });
     })
     .catch(err => { res.status(500).send({ message: `Error ${err.message}.` }); });
-};+
+};
 
 // Delete all
 exports.deleteAll = (req, res) => {

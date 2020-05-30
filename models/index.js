@@ -5,13 +5,13 @@ const sequelize = new Sequelize(
   dbConfig.db, dbConfig.user, dbConfig.password, {
   host: dbConfig.host,
   dialect: dbConfig.dialect,
-  operatorsAliases: false,
+  // operatorsAliases: false,
   pool: {
     max: dbConfig.pool.max,
     acquire: dbConfig.pool.acquire,
     idle: dbConfig.pool.idle
   },
-  logging: true
+  logging: console.log
 });
 
 const db = {};
